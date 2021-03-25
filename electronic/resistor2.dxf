@@ -2001,6 +2001,18 @@ AcDbBlockTableRecord
 340
 26
   0
+BLOCK_RECORD
+  5
+59
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+RESISTOR
+340
+0
+  0
 ENDTAB
   0
 ENDSEC
@@ -2115,97 +2127,45 @@ AcDbEntity
 100
 AcDbBlockEnd
   0
-ENDSEC
-  0
-SECTION
-  2
-ENTITIES
-  0
-CIRCLE
-  5
-59
-100
-AcDbEntity
-  8
-0
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
-100
-AcDbCircle
- 10
-0.0
- 20
-40.0
- 30
-0.0
- 40
-30.0
-  0
-LINE
+BLOCK
   5
 5A
 100
 AcDbEntity
   8
 0
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
 100
-AcDbLine
+AcDbBlockBegin
+  2
+RESISTOR
+ 70
+0
  10
 0.0
  20
-55.0
+0.0
  30
 0.0
- 11
-0.0
- 21
-65.0
- 31
-0.0
+  3
+RESISTOR
+  1
+
   0
-LINE
+ENDBLK
   5
 5B
 100
 AcDbEntity
   8
 0
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
 100
-AcDbLine
- 10
-5.0
- 20
-60.0
- 30
-0.0
- 11
--5.0
- 21
-60.0
- 31
-0.0
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
   0
 LINE
   5
@@ -2225,19 +2185,19 @@ BYLAYER
 100
 AcDbLine
  10
--5.0
+80.0
  20
-20.0
+0.0
  30
 0.0
  11
-5.0
+100.0
  21
-20.0
+0.0
  31
 0.0
   0
-ARC
+LINE
   5
 5D
 100
@@ -2253,23 +2213,21 @@ AcDbEntity
   6
 BYLAYER
 100
-AcDbCircle
+AcDbLine
  10
--5.0
+0.0
  20
-40.0
+0.0
  30
 0.0
- 40
-5.0
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+ 11
+20.0
+ 21
+0.0
+ 31
+0.0
   0
-ARC
+LINE
   5
 5E
 100
@@ -2285,23 +2243,21 @@ AcDbEntity
   6
 BYLAYER
 100
-AcDbCircle
+AcDbLine
  10
--5.0
+20.0
  20
-40.0
+10.0
  30
 0.0
- 40
-5.0
-100
-AcDbArc
- 50
+ 11
+80.0
+ 21
+10.0
+ 31
 0.0
- 51
-90.0
   0
-ARC
+LINE
   5
 5F
 100
@@ -2317,20 +2273,18 @@ AcDbEntity
   6
 BYLAYER
 100
-AcDbCircle
+AcDbLine
  10
-5.0
+80.0
  20
-40.0
+10.0
  30
 0.0
- 40
-5.0
-100
-AcDbArc
- 50
-180.0
- 51
+ 11
+80.0
+ 21
+-10.0
+ 31
 0.0
   0
 LINE
@@ -2351,15 +2305,15 @@ BYLAYER
 100
 AcDbLine
  10
-0.0
+80.0
  20
-70.0
+-10.0
  30
 0.0
  11
-0.0
+20.0
  21
-80.0
+-10.0
  31
 0.0
   0
@@ -2381,15 +2335,15 @@ BYLAYER
 100
 AcDbLine
  10
-0.0
+20.0
  20
-10.0
+-10.0
  30
 0.0
  11
-0.0
+20.0
  21
-0.0
+10.0
  31
 0.0
   0
@@ -3133,21 +3087,25 @@ PageTagSettings/TagPosition
 350
 95
   3
-UnitSettings/PaperUnit
+QCADVersion
 350
 96
   3
-ViewportCenter
+UnitSettings/PaperUnit
 350
 97
   3
-ViewportHeight
+ViewportCenter
 350
 98
   3
-ViewportWidth
+ViewportHeight
 350
 99
+  3
+ViewportWidth
+350
+9A
   0
 XRECORD
   5
@@ -3734,20 +3692,20 @@ XRECORD
 AcDbXrecord
 280
 1
- 90
-4
+1000
+3.26.1.2
   0
 XRECORD
   5
-98
+97
 330
 63
 100
 AcDbXrecord
 280
 1
- 40
-178.5705688073392707
+ 90
+4
   0
 XRECORD
   5
@@ -3759,7 +3717,19 @@ AcDbXrecord
 280
 1
  40
-375.1503853211005435
+70.941917424772555
+  0
+XRECORD
+  5
+9A
+330
+63
+100
+AcDbXrecord
+280
+1
+ 40
+149.0384884534639411
   0
 ENDSEC
   0
